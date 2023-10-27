@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+:root {
+  --basic: #ffffff;
+  --text: #000216;
+  --blue: rgb(68, 127, 242);
+  --borderRadius: 10px;
+  --smallFont: 20px;
+  --font: 30px;
+  --buttonRadius: 30px;
+}
+.main {
+  height: auto;
+  width: 100%;
+  background-color: var(--basic);
+
+  margin-top: 10px;
+}
+.navContainer {
+  height: auto;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+
+  align-items: center;
+}
+.logoImg {
+  height: 65px;
+  width: 100px;
+  padding-left: 30px;
+}
+.paraLogo {
+  padding-left: 10px;
+  margin-left: -33px;
+}
+.navMenu {
+  display: flex;
+  height: 30px;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+  margin-left: 30px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.navMenu a {
+  font-size: 1rem;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: var(--blue);
+}
+.btnLogin {
+  height: 30px;
+  width: 100px;
+  /* border: 1px, solid, white; */
+  /* box-sizing: border-box; */
+  background-color: #ffffff;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0px solid rgb(236, 230, 230);
+  letter-spacing: 1px;
+}
