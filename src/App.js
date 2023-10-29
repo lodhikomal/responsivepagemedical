@@ -3,6 +3,7 @@ import "./App.css";
 import HealthNav from "./component/HealthNav";
 import Display from "./component/Display";
 import Card from "./component/Card";
+import Viewers from "./component/Viewers";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HealthNav />
       <Display />
       <Card />
+      <Viewers />
     </div>
   );
 }

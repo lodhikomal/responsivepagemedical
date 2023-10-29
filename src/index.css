@@ -4,7 +4,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   font-family: sans-serif, "Poppins", sans-serif;
+  background-color: rgb(255, 252, 245);
 }
+
 :root {
   --basic: #ffffff;
   --text: #000216;
