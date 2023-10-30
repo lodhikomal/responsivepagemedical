@@ -50,3 +50,26 @@
   background-color: #ffffff;
   border: 1px solid rgb(236, 230, 230);
 }
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust the container width for smaller screens */
+  }
+
+  .displayHeading {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+
+  .displayPara {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+
+  .displayBtn {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    align-items: center;
+  }
+
+  .btnSchdule,
+  .btnGet {
+    width: 80%; /* Adjust button width for smaller screens */
+  }
+}

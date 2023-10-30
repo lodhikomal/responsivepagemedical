@@ -68,3 +68,13 @@
   border: 0px solid rgb(236, 230, 230);
   letter-spacing: 1px;
 }
+@media (max-width: 768px) {
+  .navMenu {
+    display: none; /* Hide the menu on smaller screens */
+  }
+
+  .btnLogin {
+    margin-left: auto; /* Align the login button to the right on smaller screens */
+    margin-right: 20px;
+  }
+}
