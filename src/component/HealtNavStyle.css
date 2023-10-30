@@ -70,11 +70,11 @@
 }
 @media (max-width: 768px) {
   .navMenu {
-    display: none; /* Hide the menu on smaller screens */
+    display: none;
   }
 
   .btnLogin {
-    margin-left: auto; /* Align the login button to the right on smaller screens */
+    margin-left: auto;
     margin-right: 20px;
   }
 }
