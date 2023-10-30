@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<FontAwesomeIcon icon="fa-regular fa-clock" />
+<FontAwesomeIcon icon="fa-regular fa-address-card" />
+<FontAwesomeIcon icon="fa-regular fa-wallet" />

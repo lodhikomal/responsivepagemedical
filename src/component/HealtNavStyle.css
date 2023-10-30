@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
 }
+
 :root {
   --basic: #ffffff;
   --text: #000216;
@@ -12,6 +13,7 @@
   --font: 30px;
   --buttonRadius: 30px;
 }
+
 .main {
   height: auto;
   width: 100%;
@@ -19,6 +21,7 @@
 
   margin-top: 10px;
 }
+
 .navContainer {
   height: auto;
   width: 100%;
@@ -27,15 +30,18 @@
 
   align-items: center;
 }
+
 .logoImg {
   height: 65px;
   width: 100px;
   padding-left: 30px;
 }
+
 .paraLogo {
   padding-left: 10px;
   margin-left: -33px;
 }
+
 .navMenu {
   display: flex;
   height: 30px;
@@ -57,6 +63,7 @@
 .item:hover {
   color: var(--blue);
 }
+
 .btnLogin {
   height: 30px;
   width: 100px;
@@ -76,5 +83,18 @@
   .btnLogin {
     margin-left: auto;
     margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navMenu {
+    flex-direction: column;
+    /* Stack menu items vertically on smaller screens */
+    gap: 1rem;
+  }
+
+  .btnLogin {
+    width: 100%;
+    /* Make the login button full-width on smaller screens */
   }
 }

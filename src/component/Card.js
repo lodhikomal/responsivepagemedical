@@ -2,7 +2,8 @@ import React from "react";
 import "./CardStyle.css";
 import cardImg from "../assets/images/cardimg.jpg";
 import cardImg1 from "../assets/images/cardimg2.png";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 function Card() {
   return (
     <>
@@ -35,14 +36,20 @@ function Card() {
           humour, or randomised words which don't look even slightly believable.
           If you are going to use a passage of Lorem Ipsum
           <div className="list">
-            <ul>
-              <li>Hospital</li>
-              <li>MentalHealthService</li>
-              <li>DigitalHealthCare</li>
-              <li>Child Care</li>
-              <li>DentalChains</li>
-              <li>40+healthcare specialities</li>
-            </ul>
+            <div className="list-left">
+              <FontAwesomeIcon icon={faCheck} className="icon-check" />
+
+              <span>
+                Hospitals</span>
+              <div><FontAwesomeIcon icon={faCheck} className="icon-check" />Digital Health Care</div>
+              <div><FontAwesomeIcon icon={faCheck} className="icon-check" />Dentals Chains</div>
+            </div>
+            <div className="list-right">
+              <div><FontAwesomeIcon icon={faCheck} className="icon-check" />Mental Health Service</div>
+              <div><FontAwesomeIcon icon={faCheck} className="icon-check" />Child Care</div>
+              <div><FontAwesomeIcon icon={faCheck} className="icon-check" />40+ health care speciality</div>
+            </div>
+
           </div>
         </div>
       </div>

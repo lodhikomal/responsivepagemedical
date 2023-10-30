@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 import HealthNav from "./component/HealthNav";
 import Display from "./component/Display";
 import Card from "./component/Card";
+import ResuableComponnet from "./component/ResuableComponnet";
+// import Viewers from "./component/Viewers";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HealthNav />
       <Display />
       <Card />
+      <ResuableComponnet />
     </div>
   );
 }
