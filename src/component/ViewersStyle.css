@@ -6,27 +6,37 @@
   /* flex-wrap: inherit; */
   /* flex-direction: column; */
   margin: auto;
+  /* gap: 20px; */
 }
+
 .viewers-card {
   height: 200px;
-  width: 500px;
+  width: 400px;
   /* background-color: aquamarine; */
   padding: 30px;
 }
+
 .parent-container {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 30px;
+  width: 80%;
+  margin: auto;
+
 }
+
 .icon {
   color: var(--blue);
   height: 20px;
   width: 20px;
   padding-bottom: 30px;
 }
+
 .heading {
   font-weight: 600;
   padding-bottom: 20px;
 }
+
 .viewers-para {
   font-size: 15px;
 }
